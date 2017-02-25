@@ -1,0 +1,51 @@
+<html>
+ <head>
+  <title>Timeline</title>
+  <link rel="shortcut icon" href="/images/index_favicon.png">
+  <link href="styles/timeline.min.css" rel="stylesheet">
+  <style type="text/css">
+  	body{
+  		background-image:url("images/timeline_background.jpg");
+  	}
+  </style>
+ </head>
+ <body>
+        <audio src="good_time.mp3" autoplay></audio>
+ 	<div>
+	<div id="tL-body" class="dark-theme round-theme">
+		<br />
+	 	<br />
+		<br />
+	  <div id="tL">
+	    <div class="tL line"></div>
+	    <div class="tL ball"></div> <!-- add id=tL-autoplay to this element (optional) -->
+	    <br />
+	  	<br />
+
+	    <!-- Add your events -->
+	    <div class="tL event" data-side="right" data-timer="8000">
+	      <h4 class="tL title">Start my master caree in Xidian University</h4>
+	      <time class="tL date">September 1, 2014</time>
+	      <div class="tL body media">
+                   <img src="images/Master_in_Xidian.jpg" style="width:100%;" />
+              </div>
+	    </div>
+	    <div class="tL event" data-side="left">
+	      <h4 class="tL title">Graduate from Guangxi University</h4>
+	      <time class="tL date">June 30, 2014</time>
+	      <div class="tL body">
+	        <p>I received my Bachelor Degree in Electronic and Information Engineering, School of computer and electronic information, GuangXi University.</p>
+                <p>Four years at Guangxi University have left me a lot of beautiful memories that I will never forget.</p>
+                <p>I love you, GXU.<p>
+                <div class="tL body media">
+                   <img src="images/GXU_memories.jpg" style="width:100%;" />
+                </div>
+	      </div>
+	    </div>
+        <div class="tL endBall"></div>
+	  </div>
+	</div>
+	</div>
+  <script src="js/timeline.min.js"></script>
+ </body>
+</html>
